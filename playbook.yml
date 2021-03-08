@@ -6,9 +6,9 @@
     db_user: "wordpress"
     db_password: "wordpress"
     db_database: "wordpress"
-    db_host: "db-read.delphin.host"
-    wp_domain: "www.delphin.host"
-    wp_repo: "https://github.com/FujiClado/wordpress.git"
+    db_host: "db-read.techno-bitz.ml"
+    wp_domain: "www.techno-bitz.ml"
+    wp_repo: "https://github.com/techno-bitz/wp-automation.git"
 
   tasks:
 
@@ -20,7 +20,7 @@
         state: present
 
     - name: "Wordpress-ha : Installing php"
-      shell: "amazon-linux-extras install php7.2 -y"
+      shell: "amazon-linux-extras install php7.4 -y"
 
 
     - name: "Wordpress-ha : Restarting/Enabling httpd"
