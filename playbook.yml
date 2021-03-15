@@ -7,7 +7,7 @@
     db_password: "admin123"
     db_database: "wordpress"
     db_host: "db-read.techno-bitz.ml"
-    wp_domain: "www.techno-bitz.ml"
+    wp_domain: "prod.techno-bitz.ml"
     wp_repo: "https://github.com/techno-bitz/wp-automation.git"
 
   tasks:
