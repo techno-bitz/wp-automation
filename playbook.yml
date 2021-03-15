@@ -8,7 +8,7 @@
     db_database: "wordpress"
     db_host: "db-read.techno-bitz.ml"
     wp_domain: "prod.techno-bitz.ml"
-    wp_repo: "https://github.com/techno-bitz/wp-automation.git"
+    wp_repo: "https://github.com/techno-bitz/wp-ha1.git"
 
   tasks:
 
