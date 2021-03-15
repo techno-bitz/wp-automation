@@ -3,8 +3,8 @@
   become: true
   hosts: localhost
   vars:
-    db_user: "wordpress"
-    db_password: "wordpress"
+    db_user: "wpuser"
+    db_password: "admin123"
     db_database: "wordpress"
     db_host: "db-read.techno-bitz.ml"
     wp_domain: "www.techno-bitz.ml"
